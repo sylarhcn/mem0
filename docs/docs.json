@@ -12,7 +12,7 @@
   "navigation": {
     "versions": [
       {
-        "version": "v1.0.0",
+        "version": "v1.0.1",
         "anchors": [
           {
             "anchor": "Documentation",
@@ -467,6 +467,14 @@
                     ]
                   },
                   {
+                    "group": "Events APIs",
+                    "icon": "clock",
+                    "pages": [
+                      "api-reference/events/get-events",
+                      "api-reference/events/get-event"
+                    ]
+                  },
+                  {
                     "group": "Entities APIs",
                     "icon": "users",
                     "pages": [
@@ -812,6 +820,10 @@
     {
       "source": "/examples/ai_companion_js",
       "destination": "/cookbooks/companions/nodejs-companion"
+    },
+    {
+      "source": "/cookbooks/essentials/building-ai-with-personality",
+      "destination": "cookbooks/essentials/entity-partitioning-playbook"
     },
     {
       "source": "/examples/mem0-demo",
