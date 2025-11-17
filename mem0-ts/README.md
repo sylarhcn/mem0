@@ -1,3 +1,12 @@
+# For Xigua
+
+这是修复 openAIEmbedder custom url 的版本，供西瓜使用火山的模型使用（提了 PR 到官方了，还未合并）
+相关项目请在 npmrc 中添加, 来保证下载的西瓜的版本
+
+```
+mem0ai:registry=https://npm.xiguacity.cn/
+```
+
 # Mem0 - The Memory Layer for Your AI Apps
 
 Mem0 is a self-improving memory layer for LLM applications, enabling personalized AI experiences that save costs and delight users. We offer both cloud and open-source solutions to cater to different needs.
