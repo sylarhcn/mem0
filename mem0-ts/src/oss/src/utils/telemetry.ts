@@ -7,7 +7,7 @@ import type {
 let version = "2.1.34";
 
 // Safely check for process.env in different environments
-let MEM0_TELEMETRY = true;
+let MEM0_TELEMETRY = false;
 try {
   MEM0_TELEMETRY = process?.env?.MEM0_TELEMETRY === "false" ? false : true;
 } catch (error) {}
